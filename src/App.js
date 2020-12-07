@@ -1,14 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import Nav from './components/Navbar'
-import Header from './components/Header'
-
+import Landing from './pages/Landing'
+import SellerPage from './pages/SellerPage'
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Nav/>
-      <Header/>
-    </div>
+      <Switch>
+        <Route exact path="/" component={Landing}/>
+        <Route exact path="/seller/dashboard" component={SellerPage}/>
+      </Switch> 
+    </BrowserRouter>
   );
 }
 
