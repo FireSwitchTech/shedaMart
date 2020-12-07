@@ -1,3 +1,6 @@
+body{
+  font-family:"Montserrat"!important;
+}
 .navbar{
   background-color: #f36D01;
   opacity: 0.9;
@@ -9,5 +12,67 @@
   margin-left:10px;
 }
 .header-img{
-  background: url('./components/Background.png');
+  background: url('./components/Background.png') no-repeat;
+  border: 1px solid #707070;
+  opacity: 0.54;
+  height: 342px;
+}
+a{
+  font-size: small;
+}
+#inner-nav{
+  
+  transform: translateY(-50px);
+  width: 50%;
+  height: 120px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px #00000029;
+  background-color: #ffffff;
+}
+.show-nav{
+  font-size: 12px;
+}
+.product{
+  width: 121px;
+  height: 111px;
+}
+.product-title, .product-price{
+  font-size: 12px;
+}
+.product-price{
+  font-weight: 800;
+}
+.card{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 10px 10px 20px #00000029;
+}
+.about{
+  height: 200px;
+  background: #E4E4E4 0% 0% no-repeat padding-box;
+}
+.footer{
+  background: #F87C19 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+}
+.wishlist{
+  display: flex;
+}
+.track{
+  font-size: x-small;
+}
+span{
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.first-dot{
+  background-color: #f81919;
+}
+.second-dot{
+  background-color: #f8f110;
+}
+.third-dot{
+  background-color: #3CF819;
 }
