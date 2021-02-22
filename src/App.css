@@ -14,7 +14,7 @@ body{
 .header-img{
   background: url('./components/Background.png') no-repeat;
   border: 1px solid #707070;
-  opacity: 0.54;
+  z-index: -1;
   height: 342px;
 }
 a{
@@ -24,7 +24,6 @@ a{
   
   transform: translateY(-50px);
   width: 50%;
-  height: 120px;
   margin: 0 auto;
   box-shadow: 5px 5px 15px #00000029;
   background-color: #ffffff;
@@ -49,6 +48,9 @@ a{
 .about{
   height: 200px;
   background: #E4E4E4 0% 0% no-repeat padding-box;
+}
+.nav-link{
+  font-size: 12px!important;
 }
 .footer{
   background: #F87C19 0% 0% no-repeat padding-box;
@@ -75,4 +77,69 @@ span{
 }
 .third-dot{
   background-color: #3CF819;
+}
+.login,.register{
+  height: 100vh;
+  background: url('./components/Background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.login h3, .login .message{
+  color: #ffffff;
+  font-weight: 900;
+}
+.register h3, .register .message{
+  color: #ffffff;
+  font-weight: 900;
+}
+.btn{
+  background-color: #f87c19!important;
+  color: #ffffff!important;
+}
+input{
+  box-shadow: 0px 3px 6px #00000036;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+.seller{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-top: 0!important;
+  border-right: 0!important;
+  border-left: 0!important;
+}
+.side-items li{
+  font-size: 12px;
+}
+.order div h5{
+  font-size:16px;
+  font-weight: bold;
+}
+.text-center{
+  font-size: 17px;
+}
+
+.color{
+  height: 40px;
+  width: 40px;
+  float:right;
+  margin-left: auto;
+  border-radius: 50%;
+}
+.order{
+  display: flex;
+}
+.cart{
+  border: 2px solid #f87c19;
+  border-radius: 10px;
+  width: 83px;
+}
+p{
+  font-size: 12px;
 }

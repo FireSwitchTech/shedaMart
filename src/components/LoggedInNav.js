@@ -1,8 +1,8 @@
 import React from 'react';
 import {Search, ShoppingCart, NotificationsNone, Person} from '@material-ui/icons';
 import {Link} from 'react-router-dom'
-const Navbar = () => {
-    return (   
+const LoggedInNav = () => {
+    return ( 
         <nav class="navbar navbar-expand-lg">
             <div className="container">
             <a class="navbar-brand" href="#">SHEDAMART</a>
@@ -50,8 +50,7 @@ const Navbar = () => {
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" data-toggle="dropdown"><Person/></a>
                         <ul className="dropdown-menu">
-                            <li><Link to="/login" className="dropdown-item">LOGIN</Link></li>
-                            <li><Link to="/register" className="dropdown-item">SIGN UP</Link></li>
+                            <li><Link to="/seller/dashboard" className="dropdown-item">Dashboard</Link></li>
                         </ul>
                     </li>
                 </ul>
@@ -60,7 +59,7 @@ const Navbar = () => {
             </div>
            
         </nav>
-    );
+     );
 }
  
-export default Navbar;
+export default LoggedInNav;
