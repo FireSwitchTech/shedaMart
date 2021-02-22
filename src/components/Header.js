@@ -6,28 +6,28 @@ const Header = () => {
             <div className="header-img">
 
             </div>
-            <div className="row align-items-center justify-content-center" id="inner-nav">
-                <div className="col-2 nav-item-logo">
+            <div className="row d-none d-lg-flex align-items-center justify-content-center p-3" id="inner-nav">
+                <div className="col-2 nav-item-logo text-center">
                     <ColorLens/>
                     <p className="show-nav">ART TOOLS</p>
                 </div>
-                <div className="col-2 nav-item-logo">
+                <div className="col-2 nav-item-logo text-center">
                     <CardGiftcard/>
                     <p className="show-nav">GIFT</p>
                 </div>
-                <div className="col-2 nav-item-logo">
-                    <Computer/>
+                <div className="col-2 nav-item-logo text-center">
+                    <Computer />
                     <p className="show-nav">ELECTRONICS</p>
                 </div>
-                <div className="col-2 nav-item-logo">
+                <div className="col-2 nav-item-logo text-center">
                     <ColorLens/>
                     <p className="show-nav">ART & CRAFT</p>
                 </div>
-                <div className="col-2 nav-item-logo">
+                <div className="col-2 nav-item-logo text-center">
                     <CardGiftcard/>
                     <p className="show-nav">3D DESIGN</p>
                 </div>
-                <div className= "col-2 nav-item-logo">
+                <div className= "col-2 nav-item-logo text-center">
                     <Computer/>
                     <p className="show-nav">ELECTRONICS</p>
                 </div>
